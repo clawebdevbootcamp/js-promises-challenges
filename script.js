@@ -10,7 +10,7 @@ let users = [
 // This function executes when the signup form is submitted
 document.getElementById("signupform").addEventListener("submit", (event) => {
   event.preventDefault();
-  // TODO: get the value from the signup form (JS DOM)
+  // TODO: get the values from the signup form (JS DOM)
   // 1- check if user exists or not and stop the function in case they do (by returning)
   // 2- if they don't exist we need to add teh user to the array (use 2 methods for this one and comment the first one)
   alert("Signup");
@@ -19,7 +19,7 @@ document.getElementById("signupform").addEventListener("submit", (event) => {
 // This function executes when the login form is submitted
 const login = (event) => {
   event.preventDefault();
-  // TODO: get the value from the login form (JS DOM)
+  // TODO: get the values from the login form (JS DOM)
   // TODO: instead of alerting we want to do the following
   // 1- check if user exists or not and stop the function in case they don't (by returning)
   // We already have a function that checks the user. Use it and wait for it before going forward
